@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: p2p-temporary
+  namespace: downloads
+  annotations:
+    volume.beta.kubernetes.io/storage-class: heketi
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi
