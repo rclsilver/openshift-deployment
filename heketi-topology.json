@@ -1,0 +1,57 @@
+{
+    "clusters": [
+        {
+            "nodes": [
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "node-1.openshift.rclsilver.net"
+                            ],
+                            "storage": [
+                                "172.16.100.11"
+                            ]
+                        },
+                        "zone": 1
+                    },
+                    "devices": [
+                        "/dev/vg00/glusterfs"
+                    ]
+                },
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "node-2.openshift.rclsilver.net"
+                            ],
+                            "storage": [
+                                "172.16.100.12"
+                            ]
+                        },
+                        "zone": 2
+                    },
+                    "devices": [
+                        "/dev/vg00/glusterfs"
+                    ]
+                },
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "node-3.openshift.rclsilver.net"
+                            ],
+                            "storage": [
+                                "172.16.100.13"
+                            ]
+                        },
+                        "zone": 3
+                    },
+                    "devices": [
+                        "/dev/vg00/glusterfs"
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
